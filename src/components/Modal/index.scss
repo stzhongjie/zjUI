@@ -1,0 +1,74 @@
+.modal-ui {
+  .modalContent {
+    position     : fixed;
+    width        : 520px;
+    z-index      : 1001;
+    background   : #fff;
+    border-radius: 5px;
+
+    .modalHead {
+      padding      : 16px 24px;
+      color        : rgba(0, 0, 0, 0.65);
+      background   : #fff;
+      border-bottom: 1px solid #e8e8e8;
+      border-radius: 4px 4px 0 0;
+      color        : rgba(0, 0, 0, 0.85);
+      font-weight  : 500;
+      font-size    : 16px;
+      line-height  : 22px;
+      word-wrap    : break-word;
+
+      .icon-close {
+        position       : absolute;
+        top            : 0;
+        right          : 0;
+        z-index        : 10;
+        padding        : 0;
+        width          : 56px;
+        height         : 56px;
+        color          : rgba(0, 0, 0, 0.45);
+        font-size      : 16px;
+        line-height    : 56px;
+        text-align     : center;
+        text-decoration: none;
+        background     : transparent;
+        border         : 0;
+        outline        : 0;
+        cursor         : pointer;
+      }
+    }
+
+    .modalBody {
+      padding    : 24px;
+      font-size  : 14px;
+      line-height: 1.5;
+      word-wrap  : break-word;
+    }
+
+    .modalFooter {
+      padding      : 10px 16px;
+      text-align   : right;
+      background   : transparent;
+      border-top   : 1px solid #e8e8e8;
+      border-radius: 0 0 4px 4px;
+      .button-ui{
+        margin-left:8px;
+      }
+    }
+  }
+
+  .modalMark {
+    position        : fixed;
+    width           : 100%;
+    height          : 100%;
+    z-index         : 1000;
+    top             : 0;
+    left            : 0;
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+}
+.aaa{
+  background-image:url('../../assets/img/shein.png');
+  width:100px;
+  height:100px;
+}

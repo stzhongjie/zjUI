@@ -1,0 +1,82 @@
+.button-ui {
+  padding      : 4px 15px;
+  font-size    : 14px;
+  border-radius: 3px;
+  text-align   : center;
+  position     : relative;
+  display      : inline-block;
+  font-weight  : 400;
+  border       : 1px solid #d2d2d2;
+  box-shadow   : 0 2px 0 rgba(0, 0, 0, 0.015);
+  transition   : all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  cursor       : pointer;
+}
+
+.primary {
+  background  : #1890ff;
+  color       : #fff;
+  border-color: 0;
+
+  &:hover,
+  &:focus {
+    color           : #fff;
+    background-color: #40a9ff;
+    border-color    : #40a9ff;
+  }
+}
+
+.default {
+
+  &:hover,
+  &:focus {
+    color           : #40a9ff;
+    background-color: #fff;
+    border-color    : #40a9ff;
+  }
+}
+
+.dashed {
+  color           : rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color    : #d9d9d9;
+  border-style    : dashed;
+
+  &:hover,
+  &:focus {
+    color           : #40a9ff;
+    background-color: #fff;
+    border-color    : #40a9ff;
+  }
+}
+
+.link {
+  color             : #1890ff;
+  background-color  : transparent;
+  border-color      : transparent;
+  -webkit-box-shadow: none;
+  box-shadow        : none;
+
+  &:hover,
+  &:focus {
+    border-color: transparent;
+  }
+}
+
+.large {
+  padding  : 6.4px 16px;
+  font-size: 16px;
+}
+
+.small {
+  padding  : 0 7px;
+  font-size: 13px;
+}
+
+.disabled {
+  color           : rgba(0, 0, 0, 0.25);
+  background-color: #f5f5f5;
+  border-color    : #d9d9d9;
+  text-shadow     : none;
+  box-shadow      : none;
+  cursor          : not-allowed;
+}
