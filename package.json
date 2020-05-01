@@ -149,7 +149,8 @@
     "cz-conventional-changelog": "^3.1.0",
     "html-withimg-loader": "^0.1.16",
     "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "commitizen": "^4.0.3"
   },
   "config": {
     "commitizen": {
